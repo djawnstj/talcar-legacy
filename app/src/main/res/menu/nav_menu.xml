@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="메인" />
+        <item
+            android:id="@+id/item2"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="예약확인" />
+        <item
+            android:id="@+id/item3"
+            android:icon="@android:drawable/ic_popup_reminder"
+            android:title="채팅" />
+        <item
+            android:id="@+id/item4"
+            android:icon="@android:drawable/ic_popup_reminder"
+            android:title="구독" />
+        <item
+            android:id="@+id/item5"
+            android:icon="@android:drawable/ic_popup_reminder"
+            android:title="공항" />
+    </group>
+
+</menu>

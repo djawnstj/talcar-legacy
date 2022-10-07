@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">든든카</string>
+
+    <string name="drawer_open">열기</string>
+    <string name="drawer_close">닫기</string>
+
+    <string-array name="reserve_category">
+        <item>등록 내역</item>
+        <item>요청 내역</item>
+        <item>구독 요청</item>
+    </string-array>
+
+    <string-array name="airport_category">
+        <item>공항을 선택해주세요.</item>
+        <item>인천국제공항</item>
+        <item>김포국제공항</item>
+        <item>김해국제공항</item>
+        <item>제주국제공항</item>
+        <item>청주국제공항</item>
+        <item>대구국제공항</item>
+        <item>무안국제공항</item>
+        <item>원주공항</item>
+        <item>양양국제공항</item>
+        <item>광주공항</item>
+        <item>군산공항</item>
+        <item>사천공항</item>
+        <item>포항공항</item>
+        <item>울산공항</item>
+        <item>여수공항</item>
+    </string-array>
+</resources>

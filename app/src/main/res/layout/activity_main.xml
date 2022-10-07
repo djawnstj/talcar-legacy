@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/ic_circle_menu"
+            android:elevation="10dp"
+            android:fadingEdgeLength="20dp"
+            app:cardCornerRadius="100dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="20dp">
+
+            <Button
+                android:id="@+id/menuButton"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ic_circle_menu" />
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_menu"
+            android:elevation="5dp"
+            android:theme="@style/DrawerArrowStyle">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:elevation="5dp"
+                app:popupTheme="@style/DrawerArrowStyle" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <FrameLayout
+            android:id="@+id/fragmentView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <include layout="@layout/navbar" />
+
+</androidx.drawerlayout.widget.DrawerLayout>
